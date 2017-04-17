@@ -132,7 +132,7 @@ public class LocationSensor extends AbstractPullSensor
 			{
 				if (locationManager.getAllProviders().contains(LocationManager.NETWORK_PROVIDER))
 				{
-					locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 0, locListener,
+					locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locListener,
 							Looper.getMainLooper());
 				}
 				else if (GlobalConfig.shouldLog())
@@ -142,7 +142,7 @@ public class LocationSensor extends AbstractPullSensor
 
 				if (locationManager.getAllProviders().contains(LocationManager.GPS_PROVIDER))
 				{
-					locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 5000, 0, locListener,
+					locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locListener,
 							Looper.getMainLooper());
 				}
 				else if (GlobalConfig.shouldLog())
@@ -154,7 +154,7 @@ public class LocationSensor extends AbstractPullSensor
 			{
 				if (locationManager.getAllProviders().contains(LocationManager.NETWORK_PROVIDER))
 				{
-					locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 0, locListener,
+					locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locListener,
 							Looper.getMainLooper());
 				}
 				else if (GlobalConfig.shouldLog())
