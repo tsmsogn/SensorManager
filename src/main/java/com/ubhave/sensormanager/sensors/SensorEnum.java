@@ -74,7 +74,12 @@ public enum SensorEnum
 	{
 		return group == SensorUtils.SENSOR_GROUP_ENVIRONMENT;
 	}
-	
+
+	public boolean isUser()
+	{
+		return group == SensorUtils.SENSOR_GROUP_USER;
+	}
+
 	public String getName()
 	{
 		return name;
