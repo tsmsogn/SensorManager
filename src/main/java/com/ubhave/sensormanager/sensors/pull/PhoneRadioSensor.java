@@ -50,7 +50,7 @@ public class PhoneRadioSensor extends AbstractPullSensor
 	private ArrayList<PhoneRadioData> visibleCells;
 	private volatile PhoneRadioDataList phoneRadioDataList;
 
-	public static PhoneRadioSensor getPhoneRadioSensor(final Context context) throws ESException
+	public static PhoneRadioSensor getSensor(final Context context) throws ESException
 	{
 		if (phoneRadioSensor == null)
 		{
