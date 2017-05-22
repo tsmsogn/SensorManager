@@ -206,7 +206,7 @@ public class SensorUtils
 		case SENSOR_TYPE_LIGHT:
 			return LightSensor.getSensor(context);
 		case SENSOR_TYPE_PHONE_RADIO:
-			return PhoneRadioSensor.getPhoneRadioSensor(context);
+			return PhoneRadioSensor.getSensor(context);
 		case SENSOR_TYPE_CONNECTION_STRENGTH:
 			return ConnectionStrengthSensor.getSensor(context);
 		case SENSOR_TYPE_PASSIVE_LOCATION:
