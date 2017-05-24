@@ -26,3 +26,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 More information available [here](http://en.wikipedia.org/wiki/BSD_licenses).
+
+## Change log
+
+[Here](https://github.com/tsmsogn/SensorManager/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Amerged)
